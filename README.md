@@ -30,7 +30,7 @@ First, ensure that a Production build has been integrated so that you have an `i
 
 ## Fiddler Auto-Responder
 
-Open Telerik Fiddler, and go to the Auto-Responder tab. Install 3 rules by importing the `FiddlerResponder\Catt_MultiAssignDevDebug.farx` file and enabling all rules. You will need to change the folders to match your own folders depending on your Development environment.
+Open Telerik Fiddler, and go to the Auto-Responder tab. Install 3 rules by importing the `FiddlerResponder\ngcrmeg_DevDebug.farx` file and enabling all rules. You will need to change the folders to match your own folders depending on your Development environment.
 
 Alternatively, create the Rules yourself as follows (changing the mappings to match your folders):
 1. Add Rule - `regex:.*prefix_\/multiassign\/index\.html`, map to `C:\Projects\ngeg\ng-crm-eg\fdist\index.html`
