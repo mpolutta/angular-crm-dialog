@@ -1,0 +1,21 @@
+<h2 mat-dialog-title>
+  Sample Input Dialog
+</h2>
+<div>
+  <mat-label>Parent Entity ID:</mat-label>
+  <span>{{ parentEntityId }}</span>
+</div>
+<form>
+<div>
+  <mat-label>Sample Input</mat-label>
+  <input type="text" matInput dense name="sampleInput" [(ngModel)]="sampleInput"
+    aria-label="Sample Input" >
+</div>
+<div style="float:right; padding-right:1em;">
+  <button title="OK - Save Sample Input" id="saveInputBtn"
+    [disabled]="isValidInput()"
+    (click)="saveSampleInput()">OK</button>
+  <button title="Cancel" id="cancelBtn"
+    (click)="cancelSampleInput()">Cancel</button>
+</div>
+</form>
